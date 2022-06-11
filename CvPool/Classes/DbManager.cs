@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace CvPool.Classes
 {
-    public class DbManager // DESKTOP-64K6Q5N\\SQLEXPRESS
+    public class DbManager
     {
         private static readonly SqlConnection connection = new("Data Source = .; Initial Catalog = CvPoolDB; Integrated Security = True");
 
